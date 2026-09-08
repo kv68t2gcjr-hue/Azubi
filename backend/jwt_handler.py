@@ -1,5 +1,6 @@
 from jose import jwt
 from datetime import datetime, timedelta
+import os
 
 SECRET_KEY = os.getenv("SECRET_KEY", "azubi_super_secret_key")
 ALGORITHM = "HS256"
