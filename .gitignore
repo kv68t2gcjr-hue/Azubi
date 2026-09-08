@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tempCodeRunnerFile.py
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+frontend/dist/
+
+# Uploaded files
+backend/uploads/
